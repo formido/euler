@@ -11,11 +11,3 @@ let test =
   )in
   loop 0 0
 ;;
-
-let f x =
-  let rec loop i s =
-    if  i >= 5 then s
-    else loop (i+1) (i+s)
-  in
-  loop x 0
-  ;;
